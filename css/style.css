@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background: var(--header);
+}
+
+.navigation {
+    margin-right: 13.5rem;
+    margin-left: 13.5rem;
+    height: 7.8rem;
+    display: flex;
+    justify-content :space-between;
+    align-items: center;
+}
+
+.logo {
+    font: 700 2.24rem "Poppins", sans-serif;
+    color: var(--text-color);
+    width: 15rem;
+    height: 1.9rem;
+    display: flex; align-items: center;
+}
+
+.search {
+    width: 28rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    background: #EFEFEF;
+}
+
+.barra {
+    font: 400 'PT Sans Caption';
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;       
+}
+
+
+.heart {width: 2,5rem; height: 2,5rem;}
+.car {width: 8rem;}
+.login {display: flex;align-items: center; width: 7.25rem;}
+
+
+img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.car {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    justify-content: space-between;
+    }
+li {
+    color: var(--text-color);
+    list-style-type: none; /*tira modelos, no caso a bolinha*/
+}
+
+body {
+    font-size: 100%; /*sempre fazer*/
+    font: 400 1rem 'DM Sans', sans-serif;
+    color: var(--text-color);
+    background: var(--body-color);
+}
+
+.categorias {
+    height: 2.4rem;
+    margin-right: 13.5rem;  margin-left: 13.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.categoria {
+    font: 700 1rem 'PT Sans Caption';
+    color: var(--text-color);
+    
+}
+
+.banner {
+    border: 1px solid white;
+    height: 14rem;
+    margin-right: 13.5rem;  margin-left: 13.5rem;
+
+}
+.image {
+    height: 14rem;
+    width: 100%;
+}
+
+/*=========================== Variable ======================*/
+:root{
+    --background: hsl(229, 59%, 46%);
+    --text-color: hsl(0, 0%, 100%);
+    --body-color: #303030;
+    --header: #04346B;
+}
